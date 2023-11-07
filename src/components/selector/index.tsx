@@ -14,12 +14,11 @@ export function Selector({ onChange, label, options, value }: ISelectorProps) {
         options={options}
         getOptionLabel={(option) => option.label}
         value={options.find((option) => option.key === value) || null}
-        onChange={(event, newValue) => {
+        onChange={(key, newValue) => {
           if (newValue) {
             onChange(newValue.key);
           }
         }}
-        
         renderInput={(params) => <TextField {...params} label={label} />}
       />
     </FormControl>

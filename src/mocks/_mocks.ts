@@ -1,17 +1,29 @@
 export const districtsMock = [
-    {
-      key: '1',
-      label: 'Distrito 1',
-    },
-    {
-      key: '2',
-      label: 'Distrito 2',
-    },
-    {
-      key: '3',
-      label: 'Distrito 3',
-    },
-  ];
+  {
+    key: '1',
+    label: 'Distrito 1',
+  },
+  {
+    key: '2',
+    label: 'Distrito 2',
+  },
+  {
+    key: '3',
+    label: 'Distrito 3',
+  },
+  {
+    key: '4',
+    label: 'Chubut',
+  },
+  {
+    key: '5',
+    label: 'Cordoba',
+  },
+  {
+    key: '6',
+    label: 'Mendoza',
+  },
+];
 
 export const electoralSectionsMock = [
     {

@@ -10,6 +10,7 @@ import { ThemeProvider, createTheme } from '@mui/material';
 import { FilterProvider } from './context/FilterContext';
 import { AnimatePresence } from 'framer-motion';
 
+
 function App() {
   // Colores definidos
   const colors = {

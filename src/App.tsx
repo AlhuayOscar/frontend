@@ -12,7 +12,7 @@ import { AnimatePresence } from 'framer-motion';
 
 
 function App() {
-  // Colores definidos
+  // Colores definidos 
   const colors = {
     violetBrandLight: '#714FB6',
     violetBrand: '#493570',
